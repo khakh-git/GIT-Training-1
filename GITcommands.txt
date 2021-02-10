@@ -5,6 +5,10 @@ git status- to check the status of your repository
 
 IF UNTRACKED FILE IS FOUND (NEW FILE) 
 
-git add "file name.txt"
+git add filename.txt
+
+git commit -a -> to commit any changes, it will open an editor window to add message and close it
+
+git push -> to push changes to repos
 
 
