@@ -11,4 +11,6 @@ git commit -a -> to commit any changes, it will open an editor window to add mes
 
 git push -> to push changes to repos
 
+git pull -> to pull any changes done to repo online 
+
 
