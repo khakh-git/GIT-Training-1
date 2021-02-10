@@ -26,5 +26,9 @@ git pull	> to pull any changes done to repository online
 
 -- Extended Commands 
 git log		> to see the commit history, including who/when the changes were made
-
+git log -1	> last one commit
+git log --oneline> to see the 1 line record for recent changes  
+git log --stat	> to see detailed log changes 
+git log --patch	> to see more details about changes like diff command 
+q- to quit log 
 
