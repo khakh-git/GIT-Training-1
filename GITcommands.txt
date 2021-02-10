@@ -13,7 +13,10 @@ git add filename.txt	> to add new file/ top add changed file to staging area eve
 
 Now the filename.txt is in staging area and ready to be commited. If more changes are done at this point, you need to add it again using above command, if not then can be commited using below.
 
-git commit -a	> to commit any changes, it will open an editor window to add message and close it
+git commit	> to commit any changes, it will open an editor window to add message and close it
+git commit -a	> to commit changes by skipping the git add step (staging area)
+git commit -a -m> to commit changes and add a message e.g., git commit -a -m "message text"
+
 
 git push	> to push changes to repos
 
