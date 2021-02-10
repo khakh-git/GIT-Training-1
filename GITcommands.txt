@@ -1,16 +1,22 @@
-git init- To initialize GIT repository
-git config- to change any config e.g. git config --global user.name "Anaad"
+git init	> To initialize GIT repository
+git config	> to change any config e.g. git config --global user.name "Anaad"
 
-git status- to check the status of your repository
+git status	> to check the status of your repository
+git status -s	> it shows short version(STAGED MODIFIED FILENAME) (M-modified file ,A-new files, ??= untracked file) 
+	     	> e.g. M  File1 (file1 is modified in staging area) MM file2 (file2 modified in staging as well working area)
 
-IF UNTRACKED FILE IS FOUND (NEW FILE) 
+git diff	> It shows 1. changes are staged and ready to be commited, 2. changes not yet staged 
 
-git add filename.txt
+If new/modified file is found you need to add it to staging area
 
-git commit -a -> to commit any changes, it will open an editor window to add message and close it
+git add filename.txt	> to add new file/ top add changed file to staging area every time you modify the file 
 
-git push -> to push changes to repos
+Now the filename.txt is in staging area and ready to be commited. If more changes are done at this point, you need to add it again using above command, if not then can be commited using below.
 
-git pull -> to pull any changes done to repo online 
+git commit -a	> to commit any changes, it will open an editor window to add message and close it
+
+git push	> to push changes to repos
+
+git pull	> to pull any changes done to repo online 
 
 
