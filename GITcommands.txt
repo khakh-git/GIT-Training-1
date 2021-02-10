@@ -18,8 +18,8 @@ git commit -a	> to commit changes by skipping the git add step (staging area)
 git commit -a -m> to commit changes and add a message e.g., git commit -a -m "message text"
 
 
-git push	> to push changes to repos
+git push	> to push changes to online repository
 
-git pull	> to pull any changes done to repositry online 
+git pull	> to pull any changes done to repository online 
 
 
