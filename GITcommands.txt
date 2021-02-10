@@ -23,3 +23,8 @@ git push	> to push changes to online repository
 git pull	> to pull any changes done to repository online 
 
 
+
+-- Extended Commands 
+git log		> to see the commit history, including who/when the changes were made
+
+
