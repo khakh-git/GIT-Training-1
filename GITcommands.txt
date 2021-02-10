@@ -1,0 +1,10 @@
+git init- To initialize GIT repository
+git config- to change any config e.g. git config --global user.name "Anaad"
+
+git status- to check the status of your repository
+
+IF UNTRACKED FILE IS FOUND (NEW FILE) 
+
+git add "file name.txt"
+
+
