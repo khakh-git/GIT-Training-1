@@ -7,11 +7,11 @@ git status -s	> it shows short version(STAGED MODIFIED FILENAME) (M-modified fil
 
 git diff	> It shows 1. changes are staged and ready to be commited, 2. changes not yet staged 
 
-If new/modified file is found you need to add it to staging area
+--If new/modified file is found you need to add it to staging area
 
 git add filename.txt	> to add new file/ top add changed file to staging area every time you modify the file 
 
-Now the filename.txt is in staging area and ready to be commited. If more changes are done at this point, you need to add it again using above command, if not then can be commited using below.
+--Now the filename.txt is in staging area and ready to be commited. If more changes are done at this point, you need to add it again using above command, if not then can be commited using below.
 
 git commit	> to commit any changes, it will open an editor window to add message and close it
 git commit -a	> to commit changes by skipping the git add step (staging area)
